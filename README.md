@@ -1,78 +1,77 @@
 # Introduction
 
-zneixbot is a variety Discord bot with slight moderation / utility features and some fun commands
-###### made by IT nerd with ❤️
+zneixbot est une variété de bot Discord avec de légères fonctionnalités de modération / utilitaire et quelques commandes amusantes
+###### fait par un nerd informatique avec ❤️
 
 ---
 
-## Breakthrough of most useful features
+## Percée des fonctionnalités les plus utiles
 
-* utility / make-your-life-easier:
-  * fast emote adding / showcasing (even with IDs)
-  * many converters: colors, dns records, discord snowflakes, temperatures, money (25+ currencies), etc...
-  * basic inforamtion-fetching for Discord objects \(such as users, servers, avatars, icons, etc...\)
-  * math calculations
-* moderation:
-  * basic kick / ban commands with optional reason \(supports IDs\)
-  * temporary bans
-  * ban check / unbanning certain IDs
-  * message cleanup
-  * quick region change \(useful during discord outages\)
-  * logging of important events, such as joining/leaving server, deleting/editing messages
-* server utilities
-  * changeable bot prefix!
-  * throwing giveaways with multiple winners!
-  * self-assignable roles with one command!
-  * highly customizable leveling system with role rewards for free!
-    * leaderboard
-    * rank-check
-    * ignoring certain channels and/or users
-    * customizable ways of announcing level ups
-* fun/misc:
-  * quite few rng-based commands \(8ball, plain rng, %-chance, coinflip\)
-  * rock-paper-scissors
-  * rubik's cube scrambles
-  * image squish \(just like emote modification of Twitch\)
-  * wednesday check, my dude
-  * yearprogress
-  * \( ͡° ͜ʖ ͡°\)
-  * random gachimuchi track lookup
-
-### Note: **There are some aliases for several commands, use help command for more information.**
+* utilité / simplifiez-vous la vie:
+  * Ajout / présentation rapide d'emote (même avec des identifiants)
+  * de nombreux convertisseurs: couleurs, enregistrements DNS, flocons de neige discord, températures, argent (plus de 25 devises), etc ...
+  * récupération d'informations de base pour les objets Discord \ (tels que les utilisateurs, les serveurs, les avatars, les icônes, etc ... \)
+  * calculs mathématiques
+* modération:
+  * commandes de kick / ban de base avec raison facultative \ (prend en charge les ID \)
+  * interdictions temporaires
+  * interdire la vérification / la suppression de certains identifiants
+  * nettoyage des messages
+  * changement rapide de région \ (utile pendant les pannes de discorde \)
+  * journalisation des événements importants, tels que rejoindre / quitter le serveur, supprimer / modifier des messages
+* utilitaires de serveur
+  * préfixe de bot modifiable!
+  * lancer des cadeaux avec plusieurs gagnants!
+  * rôles auto-assignables avec une seule commande!
+  * Système de mise à niveau hautement personnalisable avec des récompenses de rôle gratuitement!
+    * classement
+    * contrôle de classement
+    * ignorant certains canaux et / ou utilisateurs
+    * façons personnalisables d'annoncer les augmentations de niveau
+* amusant / divers:
+  * assez peu de commandes basées sur rng \ (8ball, plain rng,% -chance, coinflip \)
+  * Pierre papier ciseaux
+  * Le cube de rubik brouille
+  * image squish \ (tout comme la modification emote de Twitch \)
+  * chèque de mercredi, mon mec
+  * progression de l'année
+  * \ (͡ ° ͜ʖ ͡ ° \)
+  * recherche aléatoire de piste gachimuchi
+### Remarque: ** Il existe des alias pour plusieurs commandes, utilisez la commande help pour plus d'informations. **
 
 ## FAQ
 
-#### What changed recently? Are you working on the bot?
-Yes, I do. All changes are being posted on [support server](https://discordapp.com/invite/cF555AV), this repository and `changelog` command. Check it sometimes to stay updated!
+#### Qu'est-ce qui a changé récemment? Travaillez-vous sur le bot?
+Oui. Tous les changements sont publiés sur [serveur de support] (https://discordapp.com/invite/cF555AV), ce référentiel et la commande `changelog`. Vérifiez-le parfois pour rester à jour!
 
-#### How do I add bot to my server?
-Just click on [this link](https://discordapp.com/api/oauth2/authorize?client_id=506606171906637855&permissions=1409674343&scope=bot) and make sure you have required permissions to add the bot (Managing Server)
+#### Comment ajouter un bot à mon serveur?
+Cliquez simplement sur [ce lien] (https://discordapp.com/api/oauth2/authorize?client_id=506606171906637855&permissions=1409674343&scope=bot) et assurez-vous que vous disposez des autorisations nécessaires pour ajouter le bot (serveur de gestion)
 
-#### Bot didn't respond it's very slow, why?
-That happens, sometimes due to API issues and Discord outages, but it's also an issue with my server being small, so be patient please. Bot also goes down for short periods of time due to maintenace - join [support server](https://discordapp.com/invite/cF555AV) to stay updated or use `changelog` command
+#### Bot n'a pas répondu, c'est très lent, pourquoi?
+Cela se produit, parfois en raison de problèmes d'API et de pannes de Discord, mais c'est aussi un problème avec mon serveur étant petit, alors soyez patient s'il vous plaît. Le bot tombe également en panne pendant de courtes périodes en raison de la maintenance - rejoignez [serveur de support] (https://discordapp.com/invite/cF555AV) pour rester à jour ou utilisez la commande `changelog`
 
-#### Can I host bot on my own?
-Unfortunately that's not possible at the moment, due to no installation docs and difficult database setup. Please use official hosted version
+#### Puis-je héberger le bot seul?
+Malheureusement, ce n'est pas possible pour le moment, en raison de l'absence de documentation d'installation et de la configuration difficile de la base de données. Veuillez utiliser la version hébergée officielle
 
-#### I'm lost, can I get help or contact you somehow?
-Sure, you can DM me on Discord `zneix#4433` or join [support server](https://discordapp.com/invite/cF555AV)
+#### Je suis perdu, puis-je obtenir de l'aide ou vous contacter d'une manière ou d'une autre?
+Bien sûr, vous pouvez m'envoyer un message sur Discord `zneix # 4433` ou rejoindre [serveur de support] (https://discordapp.com/invite/cF555AV)
 
 
-## Planned to do in near future:
+## Prévu à faire dans un proche avenir:
 
-* Music Module
-* Random Image lookup command
-* auto-role thing for moderation, **partly done!**
-* Steam API communication
-* warning, feedback, support system via commands
+* Module de musique
+* Commande de recherche d'image aléatoire
+* chose de rôle automatique pour la modération, ** partiellement fait! **
+* Communication de l'API Steam
+* avertissement, retour d'information, système de support via des commandes
 
-## Used libraries:
+## Bibliothèques utilisées:
 
-* [canvas](https://github.com/Automattic/node-canvas)
-* [child_process]()
-* [discord.js](https://github.com/discordjs/discord.js)
-* [enmap](https://enmap.evie.codes/)
-* [fs](https://github.com/npm/security-holder)
-* [long-timeout]()
-* [mongodb](https://github.com/mongodb/node-mongodb-native)
-* [node-fetch](https://www.npmjs.com/package/node-fetch)
+* [canevas] (https://github.com/Automattic/node-canvas)
+* [processus_enfant] ()
+* [discord.js] (https://github.com/discordjs/discord.js)
+* [enmap] (https://enmap.evie.codes/)
+* [fs] (https://github.com/npm/security-holder)
+* [long-timeout] ()
+* [mongodb] (https://github.com/mongodb/node-mongodb-native)
+* [node-fetch] (https://www.npmjs.com/package/node-fetch)
